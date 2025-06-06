@@ -1,97 +1,77 @@
-Dưới đây là nội dung chi tiết cho file `README.md`, bao gồm hướng dẫn chạy chương trình và link đã deploy:
+# 📧 EMAIL FOR DEVELOPERS – 3D Web Interface
+
+Dự án này là một giao diện web hiện đại với thiết kế lấy cảm hứng từ không gian 3D, hướng đến các nhà phát triển đang tìm kiếm nền tảng email chuyên nghiệp. Giao diện đơn giản, dễ sử dụng, dễ tùy chỉnh và hoàn toàn responsive (tương thích với mọi thiết bị).
 
 ---
 
-```markdown
-# 🌐 3D Web Interface - Email for Developers
+## 🌐 Bản Demo Trực Tuyến
 
-A minimal and responsive 3D-themed web interface for showcasing email platform features targeted at developers.
-
-![Preview](./gradient.png)
-
-## 🚀 Deploy
-
-Truy cập bản demo tại đây:  
-🔗 [https://chungdeptrai.vercel.app/](https://chungdeptrai.vercel.app/)
+🔗 [Truy cập tại đây](https://chungdeptrai.vercel.app)
 
 ---
 
-## 📁 Project Structure
-
-```
+## 📁 Cấu Trúc Dự Án
 
 first-demo/
 │
-├── index.html         # Giao diện chính
-├── style.css          # CSS tùy chỉnh
-└── gradient.png       # Background hoặc gradient cho hiệu ứng
-
-````
+├── index.html # Tệp HTML chính, chứa cấu trúc trang web
+├── style.css # Tệp CSS chứa toàn bộ style giao diện
+└── gradient.png # Hình ảnh gradient nền sử dụng trong CSS
 
 ---
 
-## 🛠️ Cách chạy chương trình
+## 🚀 Cách Chạy Dự Án
 
-### ✅ Cách 1: Mở thủ công (Local)
+### ✅ Cách 1: Mở trực tiếp trên máy
 
-1. Clone repo về máy:
+1. **Clone dự án từ GitHub**  
    ```bash
    git clone https://github.com/chungdeptraivl/3d-robot.git
    cd 3d-robot
-````
 
-2. Mở `index.html` bằng trình duyệt bất kỳ (Chrome, Edge, v.v):
+  MacOs open index.html
+  Window start index.html 
 
-   * Nhấn đôi chuột vào `index.html`
-   * Hoặc chạy:
+✅ Cách 2: Dùng VSCode với Live Server
+Cài tiện ích Live Server trong Visual Studio Code (nếu chưa có).
 
-     ```bash
-     open index.html   # macOS
-     start index.html  # Windows
-     ```
+Mở thư mục dự án trong VSCode.
 
----
+Nhấp chuột phải vào index.html → chọn “Open with Live Server”.
 
-### ✅ Cách 2: Chạy với Live Server (nếu có cài VSCode)
+Trình duyệt sẽ tự động mở tại http://localhost:5500 hoặc cổng tương tự.
 
-1. Cài extension **Live Server** trong VSCode.
-2. Nhấn chuột phải vào `index.html` > chọn **"Open with Live Server"**.
-3. Trình duyệt sẽ tự mở tại `http://localhost:5500` hoặc tương tự.
+✨ Tính Năng
+Thiết kế tối giản và hiện đại dành cho developer
 
----
+Tương thích tốt với desktop, tablet và mobile
 
-## 🧠 Tính năng chính
+Không sử dụng thư viện ngoài – dễ tùy biến
 
-* Giao diện hiện đại, responsive với hiệu ứng 3D.
-* Navigation gọn gàng, hỗ trợ desktop và mobile.
-* Tối ưu hóa bố cục trên các màn hình nhỏ.
-* Định hướng cho các nền tảng sản phẩm developer-focused.
+Cấu trúc rõ ràng, dễ triển khai trên bất kỳ nền tảng nào
 
----
+🧰 Công Nghệ Sử Dụng
+HTML5
 
-## 📌 Công nghệ sử dụng
+CSS3
 
-* HTML5 + CSS3
-* Responsive Layout (media queries)
-* Git + GitHub + Vercel (hosting)
+Git / GitHub
 
----
+Vercel (triển khai hosting)
 
-## ✍️ Tác giả
 
-**Chung Đẹp Trai**
-📫 GitHub: [chungdeptraivl](https://github.com/chungdeptraivl)
-🌐 Website: [https://chungdeptrai.vercel.app](https://chungdeptrai.vercel.app)
+🧑‍💻 Tác Giả
+Tên: Chung Đẹp Trai
 
----
+GitHub: @chungdeptraivl
 
-## 📜 Giấy phép
+Website: https://chungdeptrai.vercel.app
 
-MIT License
+📄 License
+Dự án được phát hành dưới giấy phép MIT License.
+Bạn có thể sử dụng, chỉnh sửa và phân phối lại cho mục đích cá nhân hoặc thương mại.
 
-```
 
 ---
 
-Bạn có thể lưu file này dưới tên `README.md` trong thư mục `first-demo/`. Nếu cần thêm badge GitHub, animation gif hoặc markdown cho phần 3D model sau này, mình có thể hỗ trợ tiếp!
-```
+Nếu bạn cần mình tạo sẵn file `README.md` và gửi lại để tải về thì cũng được – chỉ cần nói nhé.
